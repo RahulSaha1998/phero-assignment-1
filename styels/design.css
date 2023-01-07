@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -58,13 +59,13 @@
     align-items: center;
     padding-left: 15%;
 
-    background-color: gray;
+    background-color:azure;
     width: 100%;
     height: 100vh;
 }
 
 .previous-year-title {
-    font-family: 'Work Sans';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -93,3 +94,78 @@ li::before {
     text-align: justify;
     padding-top: 7%;
 }
+
+
+/* Plans Section */
+.plans-content {
+    padding: 10%;
+}
+
+.plans-title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 3%;
+}
+
+.plans-category {
+    display: flex;
+    padding-left: 12%;
+}
+
+.plans-category-1 {
+    text-align: center;
+}
+
+.plans-category-2 {
+    text-align: center;
+    margin: 0px 140px;
+}
+
+.plans-category-3 {
+    text-align: center;
+    margin-right: 140px;
+}
+
+.plans-category-4 {
+    text-align: center;
+}
+
+.plans-category-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 7% 0%;
+
+}
+
+.plans-category-desc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #444343;
+}
+
+.plans-category-img {
+    width: 92.96px;
+    height: 92.96px;
+}
+
+.gradient {
+    background-image:  url('/images/gradient2.png'), url('/images/watch.png');
+   
+    /* background-size: 1200px 300px; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: 200px;
+    text-align: left;
+  }
+
+  .banner-desc{
+    padding: 10%;
+  }
+  
