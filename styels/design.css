@@ -156,8 +156,7 @@ li::before {
 /* gradient banner section */
 
 .gradient {
-    background-image: url('/images/gradient2.png'), url('/images/watch.png');
-
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     height: 60vh;
     margin-left: 200px;
@@ -170,7 +169,7 @@ li::before {
 
 .banner-title {
     padding-bottom: 1%;
-   
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
 }
