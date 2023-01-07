@@ -3,6 +3,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* header section */
 .header {
     background-image: url('../images/banner/banner2.png');
     background-repeat: no-repeat;
@@ -20,7 +21,6 @@
 }
 
 .header-title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
@@ -28,7 +28,6 @@
 }
 
 .header-desc {
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -53,19 +52,16 @@
 
 .previous-year-content {
     display: flex;
-    /* margin: 20px 200px 200px 200px; */
     padding-top: 100px;
-    /* margin-left: 200px; */
     align-items: center;
     padding-left: 15%;
-
     background-color: azure;
     width: 100%;
     height: 100vh;
 }
 
 .previous-year-title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -97,13 +93,14 @@ li::before {
 
 
 /* Plans Section */
+
 .plans-content {
     padding: 10%;
 }
 
 .plans-title {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -134,7 +131,7 @@ li::before {
 }
 
 .plans-category-title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -143,7 +140,7 @@ li::before {
 }
 
 .plans-category-desc {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -155,12 +152,15 @@ li::before {
     height: 92.96px;
 }
 
+
+/* gradient banner section */
+
 .gradient {
     background-image: url('/images/gradient2.png'), url('/images/watch.png');
 
     /* background-size: 1200px 300px; */
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 60vh;
     margin-left: 200px;
     text-align: left;
 }
@@ -176,6 +176,7 @@ li::before {
     font-size: 40px;
 }
 
+
 .banner-btn-primary {
     color: #F15B22;
     height: 64px;
@@ -186,4 +187,72 @@ li::before {
     height: 64px;
     background: #FFFFFF;
     border-radius: 5px;
+}
+
+
+/* footer section */
+
+.footer {
+    background: #151414;
+
+    display: flex;
+    gap: 200px;
+    padding: 200px 300px;
+    width: 100%;
+    height: 50%;
+    text-align: left;
+
+}
+
+/* Left Side footer */
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-desc {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 0px;
+}
+
+.footer-email {
+    color: #F8F8F8;
+    padding: 0px 0px 16px;
+}
+
+.footer-number {
+    color: #F8F8F8;
+    padding: 0px 0px 16px;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+}
+
+
+/* Right Side footer */
+
+.footer-subscribe {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 5%;
+
+}
+
+.footer-input[type="text"],
+[type="email"],
+textarea {
+    background-color: #151414;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    border: 1;
+    width: 100%;
+    padding: 18px 30px;
 }
